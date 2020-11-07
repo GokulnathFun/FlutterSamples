@@ -23,9 +23,8 @@ class _PostDataState extends State<PostData> {
   final TextEditingController  nameController = TextEditingController();
   final TextEditingController  jobController = TextEditingController();
 
+  //Future response
   Future<Welcome> createUser(String name, String jobTitle) async{
-
-
 
     final String url = 'https://reqres.in/api/users';
 
